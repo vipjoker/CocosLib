@@ -11,14 +11,14 @@ set(COCOS_PLATFORM_SPECIFIC_SRC
 )
 
 set(COCOS2DX_ANDROID_STATIC
- android/CCDevice-android.cpp
- android/javaactivity-android.cpp
- android/jni/TouchesJni.cpp
- android/jni/Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
- android/jni/Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
- android/jni/Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
- android/jni/Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
- android/jni/Java_org_cocos2dx_lib_Cocos2dxEngineDataManager.cpp
+ platform/android/CCDevice-android.cpp
+ platform/android/javaactivity-android.cpp
+ platform/android/jni/TouchesJni.cpp
+ platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxAccelerometer.cpp
+ platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxBitmap.cpp
+ platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxHelper.cpp
+ platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxRenderer.cpp
+ platform/android/jni/Java_org_cocos2dx_lib_Cocos2dxEngineDataManager.cpp
 )
 #
 add_library(cocos2dxandroid_static STATIC ${COCOS2DX_ANDROID_STATIC})
